@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "description": "Pokemon Battle Simulator",
   "main": "app.js",
+  "repository": "https://github.com/qorcjftns/PokeSim.git",
   "scripts": {
-    "test": "node app.js -t"
+    "test": "node app.js -t",
+    "start": "node app.js"
   },
   "keywords": [
     "Pokemon"
@@ -12,6 +14,11 @@
   "author": "BtDRng",
   "license": "ISC",
   "dependencies": {
-    "socket.io": "^1.4.5"
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "mysql": "^2.10.2",
+    "requirejs": "^2.2.0",
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5"
   }
 }
